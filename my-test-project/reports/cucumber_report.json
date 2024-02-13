@@ -1,0 +1,829 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "puppy-adoption-site-interactions;view-details-for-the-puppy-hanna-and-return-to-the-puppy-list",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "View details for the puppy Hanna and return to the puppy list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2563637500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the puppy list page",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40395500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I view details for the puppy named \"Hanna\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250945900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see details for \"Hanna\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:257"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 146842000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I return to the puppy list",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14661100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the puppy list",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:229"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35733600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42721700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "puppy-adoption-site-interactions;verify-that-the-puppy-maggie-may-is-on-the-first-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify that the puppy Maggie May is on the first page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2428044300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I am on the puppy list page",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36194800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see \"Maggie Mae\" on the page",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:236"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65569500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40342800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "puppy-adoption-site-interactions;verify-that-the-puppy-tipsy-is-on-the-second-page",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Verify that the puppy Tipsy is on the second page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2342656799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am on the second page of the puppy list",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 530624200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see \"Tipsy\" on the page",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:236"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60365700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42291600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "puppy-adoption-site-interactions;view-the-details-for-twinky-and-verify-their-adoption-fee-is-$22.50",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "View the details for Twinky and verify their adoption fee is $22.50",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2412517799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I am on the puppy list page",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66682500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I view details for the puppy named \"Twinkie\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3865125700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the adoption fee should be \"£22.50\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101074999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56201299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "puppy-adoption-site-interactions;view-the-details-for-spud,-click-adopt-me,-and-then-click-the-change-your-mind-button",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "View the details for Spud, click Adopt Me, and then click the change your mind button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2404024000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I am on the puppy list page",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37200699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I view details for the puppy named \"Spud\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2216200600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click the Adopt Me! button",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 430557300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I click the change your mind button",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:264"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 402257599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I should see the puppy list",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:229"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43938500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44771400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "puppy-adoption-site-interactions;adopt-hanna-and-then-maggie-mae",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Adopt Hanna and then Maggie Mae",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2432301600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I am on the puppy list page",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58268100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I view details for the puppy named \"Hanna\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 227892700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I click the Adopt Me! button",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 497946299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I click the Adopt Another Puppy button",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:170"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265634200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I view details for the puppy named \"Maggie Mae\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275603599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I click the Adopt Me! button",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 405771199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "the adoption has been completed for \"Hanna\" and \"Maggie Mae\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:205"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163749900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 47490600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "puppy-adoption-site-interactions;complete-the-adoption-with-a-credit-card-and-verify-the-adoption-has-been-completed",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Complete the adoption with a credit card and verify the adoption has been completed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2490480299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "I am on the puppy list page",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89506499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "I view details for the puppy named \"Hanna\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258046600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I click the Adopt Me! button",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 434524499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I complete the adoption with a credit card",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:143"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1073695400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "the adoption has been completed",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:269"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41213100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42649199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "puppy-adoption-site-interactions;adopt-brook-and-add-a-travel-carrier,-verify-the-total-amount-increases-by-the-price-of-the-carrier",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Adopt Brook and add a travel carrier, verify the total amount increases by the price of the carrier",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2392608400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I am on the puppy list page",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33045000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I view details for the puppy named \"Brook\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 224977800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "I click the Adopt Me! button",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 458437899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I add a travel carrier",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157057499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "the total amount should reflect the price of the travel carrier",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:175"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 139321700,
+              "error_message": "AssertionError [ERR_ASSERTION]: Expected total price to be £74.94, but found £34.95\n    + expected - actual\n\n    -34.95\n    +74.94\n\n    at World.<anonymous> (C:\\Users\\laxus\\Desktop\\puppies\\my-test-project\\features\\step_definitions\\puppiesPageSteps.js:202:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 47524700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "  Complete the adoption with a credit card, and verify the adoption has been completed",
+        "id": "puppy-adoption-site-interactions;adopt-brook-and-maggie-mae.-add-a-first-vet-visit-and-a-collar-and-leash-for-brook,-and-add-a-travel-carrier-for-maggie-mae.",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Adopt Brook and Maggie Mae. Add a first vet visit and a collar and leash for Brook, and add a travel carrier for Maggie Mae.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2432796399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "I am on the puppy list page",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80567299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "I view details for the puppy named \"Brook\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 280626199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I click the Adopt Me! button",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 511444999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "I click the Adopt Another Puppy button",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:170"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281078099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "I view details for the puppy named \"Maggie Mae\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254371999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "I click the Adopt Me! button",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367994700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "I add first vet visit and a collar and leash for \"Brook\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134970600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "I add a travel carrier for \"Maggie Mae\"",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73419399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "I complete the adoption with a credit card",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:143"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1079713799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "the adoption has been completed",
+            "match": {
+              "location": "features\\step_definitions\\puppiesPageSteps.js:269"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32151599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 41866099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "puppy-adoption-site-interactions",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Puppy Adoption Site Interactions",
+    "tags": [],
+    "uri": "features\\puppiesPage.feature"
+  }
+]
